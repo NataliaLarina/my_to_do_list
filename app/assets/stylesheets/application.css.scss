@@ -16,3 +16,62 @@
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+
+body {
+  background-image: image-url("IbizaParty.jpg");
+  background-size: cover;
+  // background: linear-gradient(purple, white);
+  //  background: radial-gradient(circle, purple, white);
+}
+
+h1, p {
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  color: white !important;
+}
+
+p {
+  font-size: 25px  !important;
+}
+
+.navbar-brand {
+    color: purple !important;
+}
+
+ul, li {
+  color: purple !important;
+}
+
+
+.btn {
+  background-color: purple;
+}
+
+#centerbuttons {
+  width:250px;
+  margin:0 auto;
+}
+
+.jumbotron {
+    background-color: rgba(128,0,128, 0.5);
+}
+
+// .style_image {
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   right: 0;
+//   bottom: 0;
+//   margin: auto;
+//   min-width: 50%;
+//   min-height: 50%;
+// }
+//
+// .image {
+//   position: fixed;
+//   top: -50%;
+//   left: -50%;
+//   width: 200%;
+//   height: 200%;
+// }
